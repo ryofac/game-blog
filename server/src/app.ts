@@ -48,7 +48,6 @@ app.delete("/post/:id", async (req, res) => {
 
 app.post("/posts", async (req, res) => {
   const body = req.body;
-  console.log("BODDDDDY: ")
   console.log(body);
   // Criando um novo post
 
