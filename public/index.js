@@ -82,7 +82,7 @@ function createElementWithClassName(tagName, className) {
 // Retorna um array de alunos
 async function getPosts() {
   var posts = [];
-  await fetch("http://localhost:3000/")
+  await fetch("https://game-blog-mdef.vercel.app/")
     .catch(() => {
       throw new Error("Não foi possível conectar a API");
     })

@@ -16,7 +16,7 @@ async function createPost(event){
 
     console.log(data)
 
-    await fetch("http://localhost:3000/posts", {
+    await fetch("https://game-blog-mdef.vercel.app/posts", {
         method:"POST", 
         headers: {
         'Accept': 'application/json',
